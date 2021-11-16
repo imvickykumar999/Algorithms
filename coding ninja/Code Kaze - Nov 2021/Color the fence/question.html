@@ -1,0 +1,39 @@
+<!-- https://classroom.codingninjas.com/app/classroom/me/11798/content/233265/offering/3114506/problem/15861 -->
+
+<div _ngcontent-fsf-c467="" imageoverlay="" class="description ng-star-inserted"><h4 id="marcus-and-nathan-are-two-artists-and-their-love-for-colors-and-beauty-is-unfathomable-one-day-they-decided-to-paint-the-fence-in-their-neighborhood-to-enhance-its-beauty">Marcus and Nathan are two artists, and their love for colors and beauty is unfathomable. One day they decided to paint the fence in their neighborhood to enhance its beauty.</h4>
+
+<h4 id="the-neighborhood-consists-of-n-fences-numbered-from-1-to-n-from-left-to-right-also-the-two-recognize-only-x-colors-so-if-tree-i-has-color-ci-0-lt-ci-lt-x-if-ci-0-it-means-that-the-fence-is-unpainted">The neighborhood consists of N fences, numbered from 1 to N from left to right. Also, the two recognize only X colors, so if tree i has color ci, 0&lt;=ci&lt;=X. If ci=0, it means that the fence is unpainted.</h4>
+
+<h4 id="they-also-don-39-t-want-to-waste-paint-so-they-decide-to-paint-only-the-unpainted-fences-i-e-having-ci-0-they-can-paint-the-fence-with-any-color-from-1-to-x-and-painting-the-i-th-fence-with-the-j-th-paint-requires-exactly-pi-j-litre-of-paint">They also don't want to waste paint, so they decide to paint only the unpainted fences, i.e., having ci=0. They can paint the fence with any color from 1 to X, and painting the i-th fence with the j-th paint, requires exactly pi,j litre of paint.</h4>
+
+<h4 id="while-painting-the-fences-they-come-up-with-the-idea-of-perfect-number-and-define-it-as-the-minimum-number-of-contiguous-groups-into-which-the-n-fences-can-be-divided-such-that-each-group-consists-of-the-fences-of-the-same-color">While painting the fences, they come up with the idea of “perfect number”, and define it as the minimum number of contiguous groups into which the N fences can be divided, such that each group consists of the fences of the same color.</h4>
+
+<h4 id="ninja-also-a-resident-of-the-neighborhood-challenges-them-to-paint-all-the-uncolored-fences-in-a-way-such-that-the-perfection-number-is-exactly-equal-to-k">Ninja, also a resident of the neighborhood, challenges them to paint all the uncolored fences in a way such that the perfection number is exactly equal to K.</h4>
+
+<h4 id="for-example-if-the-colors-of-the-fences-from-left-to-right-are-1-1-2-3-3-3-1-1-1-2-2-3">For example, if the colors of the fences from left to right are 1,1,2,3,3,3,1,1,1,2,2,3.</h4>
+
+<h4 id="the-perfection-number-in-this-case-is-equal-to-6-as-the-6-contiguous-segments-of-the-same-color-are-1-1-2-3-3-3-1-1-1-2-2-3">The perfection number in this case is equal to 6 as the 6 contiguous segments of the same color are: {1,1},{2}, {3,3,3},{1,1,1},{2,2},{3}.</h4>
+
+<h4 id="can-you-help-them-determine-the-minimum-amount-of-paint-in-liters-that-is-required-to-finish-this-task">Can you help them determine the minimum amount of paint (in liters) that is required to finish this task?</h4>
+
+<h5 id="input-format">Input format:</h5>
+
+<pre><code>The first line contains three integers N, X and K, denoting the number of fences, the number of paints and the perfection number respectively.
+The second line consists of N integers, c1 ,c2 ,c3.... cN, the initial colors of the fences.
+The next N lines contain X integers, the j-th number on the i-th line denotes pi,j. The amount of paint needed to paint the i-th fence with the color j.
+Though pi,j may be specified for fences that are already colored, but note that these fences cannot be painted again.
+</code></pre>
+
+<h5 id="output-format">Output format:</h5>
+
+<pre><code>Print a single integer denoting the minimum amount of paint needed to paint the fences. If the fences cannot be painted such that the perfection number is X, return -1.
+</code></pre>
+
+<h5 id="constraints">Constraints:</h5>
+
+<pre><code>1 ≤ N, X ≤ 100
+1 ≤ K ≤ N
+1 ≤ Ci ≤ X
+1 ≤ P(i,j) ≤ 10^9
+</code></pre>
+</div>
